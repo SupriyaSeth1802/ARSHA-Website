@@ -1,0 +1,155 @@
+.m-flex{
+    padding: 20px;
+    background-color:#0C2D57;
+}
+.collapse1{
+    background-color: #0C2D57;
+}
+.f-flex{
+    height: 800px;
+    padding: 100px;
+}
+.abhijjiii{
+    filter: grayscale(200);
+    transform: scale(0.7);
+
+}
+.abhijjiii:hover{
+    filter: none;
+    transform: scale(0.9);
+    transition: 1s;
+   
+    
+}
+.accordion-button:hover{
+    color: skyblue;
+    font-weight: bold;
+}
+.card-title:hover{
+     color: skyblue;
+    font-weight: bold;
+    
+}
+.card-title{
+    color: #0C2D57;
+   font-weight: bold;
+}
+.card1{
+   transform:translateY(-20px);
+    border-radius: 0%;
+    height:300px;
+    width:300px;
+    
+}
+.card1:hover{
+    transform:scale(1.0);
+
+} 
+.content{
+   background-attachment: fixed;
+    background:linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(cta-bg.jpg) fixed center center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width:100%;
+   
+    color: white;
+    background-color: #0C2D57;
+    align-items: center;
+    justify-content: space-around;
+}
+.prices{
+    height: 500px;
+
+    margin: 10px;
+}
+ul.a{
+    list-style-type:disc;
+}
+.bar{
+    height: 80px;
+    width:100%;
+    background-color: #0C2D57;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.iconsss{
+    border-radius: 100px;
+} 
+.tadka{
+    margin-left: -90px;
+}
+.ABOUTUS span{
+position:relative;
+text-align:center ;
+}
+.ABOUTUS span::before{
+    content: "";
+    /* display: block; */
+    width: 120px;
+    position: absolute;
+    height: 2px;
+    background: #ddd;
+    /* bottom: 0px; */
+    /* left: 0; */
+    top: 33px;
+    left: 10px;
+    /* left: calc(50% - 60px); */
+    /* margin-top: 10px;     */
+}
+.ABOUTUS span::after{
+    content: "";
+    /* display: block; */
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    top: 20px;
+    background: #47b2e4;
+    left: calc(50% - 20px);
+    margin: auto;
+    margin-top: 12px;
+
+}
+.SERVICES h1{
+    position:relative;
+    text-align:center ;
+    }
+    .SERVICES h1::before{
+        content: "";
+        width: 120px;
+        position: absolute;
+        height: 2px;
+        background: #ddd;
+        bottom: 0px;
+        left: calc(50% - 60px);
+    }
+    .SERVICES h1::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        bottom: -1px;
+        background: #47b2e4;
+        left: calc(50% - 20px);
+    }
+    .card2{
+        position:relative;
+    }
+    .contentttt{
+        position: absolute;
+        width:100%;
+        bottom:0px;
+        height:70px;
+        opacity:0.6;
+        color: white;
+    
+        display: none;
+    }
+    .card2:hover .contentttt{
+        display: block;
+    }
